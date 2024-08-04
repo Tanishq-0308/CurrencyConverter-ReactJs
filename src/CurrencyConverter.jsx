@@ -26,7 +26,9 @@ function CurrencyConverter(params) {
 
     return (
         <div
-            className="w-full h-screen flex flex-wrap justify-center bg-first items-center bg-cover bg-no-repeat">
+            className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
+            style={{backgroundImage:"url(https://images.pexels.com/photos/7707030/pexels-photo-7707030.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)"}}    
+        >
             <div className="w-full">
                 <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
                     <form
